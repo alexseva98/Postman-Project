@@ -68,12 +68,31 @@ Function 8 : Αναζητηση σημειωσης βαση τιτλου η λε
 με τιτλο
   
 ![image](https://user-images.githubusercontent.com/62871935/177798752-0b600c44-60d4-4699-8b2a-4a48e1c02268.png)
+  και ενα δεν υπαρχει ο τιτλος
+  ![image](https://user-images.githubusercontent.com/62871935/177798987-aca563a4-5d0b-4f6c-8040-d07d59d5d54a.png)
+
 
 
 Function 9 : Διαγραφη χρηστη απ τον ίδιο τον χρήστη -deleteThisUser():
 διαγραφή του χρήστη από την βάση δεδομένων μαζι με ολα τα notes του
+![image](https://user-images.githubusercontent.com/62871935/177799105-409471f9-4e0b-40a7-a207-17ff54341ccc.png)
+
+ADMIN
+παραδειγμα για τα permisions
+![image](https://user-images.githubusercontent.com/62871935/177800086-fbd16a03-1ac6-4c54-bf80-7d1607c76cbd.png)
 
 Function 10 : Δημιουργια νεου admin -create_admin():
+Στο συγκεκριμένο function αφου συνδεθει ο admin εισαγουμε τα στοιχεια για τον καινουργιο και τον φτιαχνουμε
+![image](https://user-images.githubusercontent.com/62871935/177799743-5a1dbfb2-c914-430a-becb-081118f8bb60.png)
+φτιαχνει εναν καινουργιο admin 
+  ![image](https://user-images.githubusercontent.com/62871935/177799879-6a7e9db7-3f91-401a-b8d6-3da7df9b0c98.png)
+
 
 Function 11 : Διαγραφη χρηστη απ τον admin -deleteUser():
+χρησιμοποιωντας τον νεο admin επιλεγοντας το username ενος χρηστη,εαν υπαρχει θα διαγραφτει απ το collection Users αλλα και τα Notes του απ το collection Notes
+![image](https://user-images.githubusercontent.com/62871935/177800288-0a24285f-7690-4911-ba3b-55a4168d0894.png)
+Εαν δεν υπαρχει θα λαβουμε το αντιστοιχο μηνυμα
+![image](https://user-images.githubusercontent.com/62871935/177801963-7b48505c-196d-45ee-b2dd-cd432f491c03.png)
+
+
 

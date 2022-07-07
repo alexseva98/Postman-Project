@@ -28,7 +28,7 @@ couldnt create user
 ![image](https://user-images.githubusercontent.com/62871935/177762907-96ff6006-a848-4832-a99e-027138619d6b.png)
 Function 2: Εισοδος χρήστη - login():
 Έλεγχος αν το email υπάρχει ήδη μέσα στη βάση δεδομένων. Εφόσον υπάρχει βρίσκουμε το password που του αντιστοιχεί και το αποθηκεύουμε σε μια νέα μεταβλητή , υστέρα κάνουμε έλεγχο αν το ζεύγος που λάβαμε ως εισαγωγή είναι το ίδιο με το ζεύγος που υπάρχει μέσα στη βάση δεδομένων μας. Έπειτα δημιουργούμε  δυο global μεταβλητές που αποθηκεύουμε το email, την κατηγορία,το username και το name του χρήστη.
-Succesfull login
+Succesfull login  
 ![image](https://user-images.githubusercontent.com/62871935/177775598-e3699bb9-e9d1-49ff-a688-e0acd46d27e7.png)
 Unsuccesfull login
 ![image](https://user-images.githubusercontent.com/62871935/177775767-a0be7e67-4604-42f6-8324-11c792d288b6.png)

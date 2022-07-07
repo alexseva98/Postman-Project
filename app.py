@@ -1,14 +1,9 @@
-from contextlib import nullcontext
-from queue import Empty
-from pymongo import MongoClient, cursor,collection
-from pymongo.errors import DuplicateKeyError
+from pymongo import MongoClient
 from flask import Flask, request, jsonify, redirect, Response
 import pymongo
 import json
-from bson import ObjectId
-from bson.json_util import dumps
-import uuid
 import time
+
 
 # Connect to our local MongoDB
 client = MongoClient('mongodb://localhost:27017/')

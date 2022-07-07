@@ -12,7 +12,7 @@ This project requires Python and the following Python libraries installed:
 
 
 Τρόπος Λειτουργίας
-Δημιουργία ενός docker image που συνδέεται με ένα container της MongoDB , εισαγωγή της βάσης δεδομένων DSMarkets που περιέχει τα collections "Notes" , "Users" στο image.
+Δημιουργία ενός docker image που συνδέεται με ένα container της MongoDB , εισαγωγή της βάσης δεδομένων DSNotes που περιέχει τα collections "Notes" , "Users" στο image.
 Εκκίνηση του Docker Image , εισαγωγή του κώδικα στο Visual Studio Code με την ονομασία app.py εκκίνηση του κώδικα με την επιλογή Flask.
 Για την δοκιμή ανοίγουμε το postman και δημιουργούμε το request που επιθυμούμε να δοκιμάσουμε εισάγοντας στο url http://127.0.0.1:5000/ + το @app route του function. πχ. για το create_user http://127.0.0.1:5000/createUser έπειτα πατώντας body εισάγουμε στην επιλογή raw τις πληροφορίες σε μορφή json.
 ![image](https://user-images.githubusercontent.com/62871935/177761362-e8408b1d-416a-4e8b-b81e-1e02ba21391a.png)
@@ -89,10 +89,15 @@ Function 10 : Δημιουργια νεου admin -create_admin():
 
 
 Function 11 : Διαγραφη χρηστη απ τον admin -deleteUser():
+![image](https://user-images.githubusercontent.com/62871935/177802499-b0a30bf6-fa4f-4ad8-8c81-d27a9cf37d40.png)
+![image](https://user-images.githubusercontent.com/62871935/177802556-89134ffa-5b19-4568-9873-67780664d411.png)
+
 χρησιμοποιωντας τον νεο admin επιλεγοντας το username ενος χρηστη,εαν υπαρχει θα διαγραφτει απ το collection Users αλλα και τα Notes του απ το collection Notes
 ![image](https://user-images.githubusercontent.com/62871935/177800288-0a24285f-7690-4911-ba3b-55a4168d0894.png)
 Εαν δεν υπαρχει θα λαβουμε το αντιστοιχο μηνυμα
 ![image](https://user-images.githubusercontent.com/62871935/177801963-7b48505c-196d-45ee-b2dd-cd432f491c03.png)
+![image](https://user-images.githubusercontent.com/62871935/177803416-05e4efa3-1a7e-429f-aa13-3909de06cc06.png)
 
+![image](https://user-images.githubusercontent.com/62871935/177803596-cdd17970-69cf-4e56-a51c-c23270be9da1.png)
 
 

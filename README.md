@@ -138,5 +138,7 @@ Function 11 : Διαγραφη χρηστη απ τον admin -deleteUser():
 ![image](https://user-images.githubusercontent.com/62871935/177803416-05e4efa3-1a7e-429f-aa13-3909de06cc06.png) 
 
 ![image](https://user-images.githubusercontent.com/62871935/177803596-cdd17970-69cf-4e56-a51c-c23270be9da1.png) 
+  
+δεν εχουν υλοποιηθει τα functions για να κανουμε update τα notes,αλλαγη password νεου admin και ο καθε χρηστης συνδεεται μονο μεσω του email του
 
 

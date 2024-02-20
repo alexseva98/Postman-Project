@@ -1,4 +1,4 @@
-# YpoxreotikiErgasia22_E16125_ALEXANDROS_SEVASTOS
+# Postman Project
 Installation  
 This project requires Python and the following Python libraries installed:
 
